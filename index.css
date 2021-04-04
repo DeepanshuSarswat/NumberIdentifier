@@ -18,7 +18,6 @@ input {
 h1 {
   text-align: center;
   padding: 20px;
-  margin: 15px 0 ;
 }
 .output {
   width: 80%;
@@ -72,4 +71,7 @@ footer {
 span {
   margin: 0 5px;
   color: #0f2027;
+}
+marquee {
+  margin: 18px 0;
 }
