@@ -1,0 +1,157 @@
+* {
+  font-family: Open Sans;
+ 
+  margin: 0%;
+  padding: 0%;
+
+  color: white;
+}
+body {
+  background-color: #171717;
+}
+.header {
+  background-color: #be185d;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 1;
+}
+.header_left {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+}
+.user_detail {
+  height: 52px;
+  width: 52px;
+  margin-left: 22px;
+}
+.user_img {
+  width: 100%;
+  border-radius: 50%;
+}
+.creator {
+  font-size: 1.2rem;
+  font-weight: 650;
+}
+input {
+  padding: 4px 6px;
+  margin-right: 12px;
+  color: white;
+  background-color: #404040;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  
+}
+
+.output {
+  
+  
+  
+  margin: 24px auto;
+}
+label {
+  margin-right: 4px;
+  color: white;
+}
+.output>p{
+  border: 2px solid #f0b6cd;
+  background-color: #404040
+  ;
+ width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  /* margin: 0px  auto 12px auto; */
+
+}
+button {
+  padding: 8px;
+  font-size: 1.2rem;
+  outline: none;
+  border: 0;
+  background-color: #be185d;
+  color: white;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition-duration: 220ms;
+
+}
+button:hover{
+  font-weight: 550;
+  transition-duration: 220ms;
+  background-color: #e1186c;
+}
+
+.section{
+  margin: 24px 0px;
+  padding: 14px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 22px;
+}
+.inputt{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+p {
+  margin: 10px 0;
+}
+
+
+
+.section-output{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-output>.image{
+  width: 30%;
+}
+img{
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+ 
+  .header_left {
+    font-size: 1rem;
+  }
+  .section-output>.image{
+    display: none;
+  }
+
+  input {
+    display: block;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+  .header_right {
+    font-weight: 8px;
+    font-size: 0.4;
+  }
+  input{
+    display: block;
+    margin-top: 8px;
+  }
+  .output>p{
+    width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+  }
+}
